@@ -1,0 +1,16 @@
+@function wood-widths($table) {
+  $result: ();
+
+  @each $row in $table {
+    @for $i from 1 through length($row) {
+      $cell: nth($row, $i);
+      $result: join($result, 0);
+
+      @if not nth($result, $i) or str-length($cell) > nth($result, $i) {
+        $result: set-nth($result, $i, str-length($cell));
+      }
+    }
+  }
+
+  @return $result;
+}
