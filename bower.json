@@ -1,0 +1,22 @@
+{
+  "name": "table-sass",
+  "description": "Monospaced text tables for Sass.",
+  "homepage": "https://github.com/dustindowell22/table-sass",
+  "authors": [
+    "Dustin Dowell <dustindowell22@gmail.com>"
+  ],
+  "main": "scss/main.scss",
+  "keywords": [
+    "table",
+    "library",
+    "css",
+    "sass",
+    "scss"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}
