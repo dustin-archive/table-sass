@@ -1,4 +1,4 @@
 Table Sass
 ==========
 
-Monospaced text tables for Sass `@debug`.
+Monospaced text tables for Sass.
