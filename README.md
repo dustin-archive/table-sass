@@ -1,4 +1,4 @@
-Wood Sass
-=========
+Table Sass
+==========
 
-Make monospaced text tables in Sass.
+Monospaced text tables for Sass `@debug`.
