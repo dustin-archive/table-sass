@@ -5,8 +5,6 @@ Monospaced text tables for Sass.
 
 ![img](preview.png)
 
----
-
 ## Setup
 ### Install
 ```
@@ -17,8 +15,6 @@ bower install table-sass --save
 ```scss
 @import '../bower_components/table-sass/main';
 ```
-
----
 
 ## Usage
 1. Make a list of lists where each sublist is a row in the table.
@@ -36,8 +32,6 @@ $table: (
 @debug table($table);
 ```
 
----
-
 ## Variables
 ### `$table-padding`
 + The amount of spaces before and after each separator.
@@ -46,8 +40,6 @@ $table: (
 ### `$table-separator`
 + The character that delimits each cell.
 + Set to `|` by default.
-
----
 
 ## Functions
 ### `table-width($list)`
@@ -60,5 +52,3 @@ $table: (
 
 ### `table($list)`
 + Outputs a table from a list of lists.
-
----
