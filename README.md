@@ -9,10 +9,14 @@ Monospaced text tables for Sass.
 
 ## Setup
 ### Install
-`bower install table-sass --save`
+```
+bower install table-sass --save
+```
 
 ### Import
-`@import '../bower_components/table-sass/main';`
+```scss
+@import '../bower_components/table-sass/main';
+```
 
 ---
 
@@ -39,7 +43,7 @@ $table: (
 + The amount of spaces before and after each separator.
 + Set to `1` by default.
 
-## `$table-separator`
+### `$table-separator`
 + The character that delimits each cell.
 + Set to `|` by default.
 
