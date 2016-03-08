@@ -45,11 +45,11 @@ $table-separator: '|' !default;
 }
 
 //
-// + table
+// + Table
 // =============================================================================
 
 @function table($table) {
-  $result: '\a';
+  $result: '\a\a';
   $widths: table-widths($table);
   $padding: table-str-repeat(' ', $table-padding);
 
@@ -67,3 +67,9 @@ $table-separator: '|' !default;
 
   @return $result;
 }
+
+//
+// + Test
+// =============================================================================
+
+// @import 'test';
