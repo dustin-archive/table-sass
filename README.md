@@ -7,16 +7,16 @@ Monospaced text tables for Sass.
 
 ---
 
-# Setup
-## Install
+## Setup
+### Install
 `bower install table-sass --save`
 
-## Import
+### Import
 `@import '../bower_components/table-sass/main';`
 
 ---
 
-# Usage
+## Usage
 1. Make a list of lists where each sublist is a row in the table.
 1. Send it to the `table()` function.
 
@@ -34,8 +34,8 @@ $table: (
 
 ---
 
-# Variables
-## `$table-padding`
+## Variables
+### `$table-padding`
 + The amount of spaces before and after each separator.
 + Set to `1` by default.
 
@@ -45,16 +45,16 @@ $table: (
 
 ---
 
-# Functions
-## `table-width($list)`
+## Functions
+### `table-width($list)`
 + Generates a list of the longest rows in each column.
 + Used internally.
 
-## `table-str-repeat($string, $count)`
+### `table-str-repeat($string, $count)`
 + Generates a repeating string.
 + Used internally.
 
-## `table($list)`
+### `table($list)`
 + Outputs a table from a list of lists.
 
 ---
